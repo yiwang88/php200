@@ -1,2 +1,8 @@
-# PHP ldap extension is available on Azure App, but it is not enabled by default. Once this extension is enabled, phpinfo page is loaded, you will see ldap extension in the page.
+## Welcome to PHP L200! You can use following links to access 4 labs, or access the lab as /lab#.php
+
+Lab 1: Load PHP ldap extension
+Lab 2: Install PHP mongodb extension
+Lab 3: Modify the value of realpath_cache_size
+Lab 4: Remove zip extension (Setup custom PHP runtime)
+
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
