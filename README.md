@@ -1,3 +1,2 @@
 # php200
-PHP L200
-Deploy to Azure App Service
+[![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
