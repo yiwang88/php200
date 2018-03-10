@@ -2,8 +2,8 @@
 
 if (!extension_loaded('ldap')) {
 
-    echo "Need to load PHP ldap extension </ br>";
-    echo "</br> <a href='https://docs.microsoft.com/en-us/azure/app-service/web-sites-php-configure'>Get instruction here</a>";
+    echo "Need to enable PHP ldap extension </ br>";
+    echo "</br> <a href='https://blogs.msdn.microsoft.com/azureossds/2017/08/21/enable-php-extensions-on-azure-web-app-on-windows/'>Get instruction here</a>";
 }
 else {
     phpinfo();
