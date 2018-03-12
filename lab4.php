@@ -1,14 +1,15 @@
 <?php
 
-if (extension_loaded('zip')) {
+$allext = get_loaded_extensions(true);
+if (!in_array("the ionCube PHP Loader", $allext)) {
 
-    echo "PHP zip extension is installed, we need to remove it.</ br>";
-    echo "</br> <a href='https://github.com/projectkudu/kudu/wiki/Xdt-transform-samples#using-a-custom-phpini'>Get instruction here</a>";
+    echo "The web site needs ionCube Loader, plesae install this extension. </ br>";
+    //echo "</br> <a href='https://github.com/projectkudu/kudu/wiki/Xdt-transform-samples#using-a-custom-phpini'>Get instruction here</a>";
 }
 
 else {
-
-    phpinfo();
+    echo "Zend extension ionCube Loader is installed, you are ready to go! </br >";
+    var_dump($allext);
 
 }
 
