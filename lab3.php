@@ -11,7 +11,8 @@ if ( ini_get('realpath_cache_size') != 2048) {
     
 }
 else {
-    phpinfo();
+    //phpinfo();
+    echo "realpath_cache_size is ". ini_get('realpath_cache_size') . "now </br >";
 }
 
 ?>
