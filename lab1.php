@@ -2,7 +2,7 @@
 
 if (!extension_loaded('ldap')) {
 
-    echo "LDAP extension is not available. Please install or enable the php-ldap extension on your web serve </ br>";
+    echo "LDAP APPLICATION ERROR #1404 LDAP Extension Not Loaded. </ br>";
     //echo "</br> <a href='https://blogs.msdn.microsoft.com/azureossds/2017/08/21/enable-php-extensions-on-azure-web-app-on-windows/'>Get instruction here</a>";
 }
 else {
