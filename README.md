@@ -4,6 +4,6 @@
 - Lab 1: LDAP APPLICATION ERROR #1404 LDAP Extension Not Loaded
 - Lab 2: PHP Error: Class 'MongoDB\Client' not found
 - Lab 3: Modify the value of realpath_cache_size
-- Lab 4: My script requires ionCube loaders Do you have ionCube installed?
+- Lab 4: Internal server error
 
 [![Deploy to Azure](http://azuredeploy.net/deploybutton.png)](https://azuredeploy.net/)
